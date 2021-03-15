@@ -27,7 +27,6 @@ public class RandomStringServlet extends HttpServlet {
     // Send the JSON as the response
     response.setContentType("application/json;");
     response.getWriter().println(json);
-    
   }
 
 }
