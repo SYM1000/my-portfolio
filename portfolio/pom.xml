@@ -46,6 +46,12 @@
       <version>2.8.6</version>
     </dependency>
 
+    <!-- Natural Language -->
+    <dependency>
+      <groupId>com.google.cloud</groupId>
+      <artifactId>google-cloud-language</artifactId>
+      <version>1.55.0</version>
+    </dependency>
   </dependencies>
 
   <build>
