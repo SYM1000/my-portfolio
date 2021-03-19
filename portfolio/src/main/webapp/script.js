@@ -26,3 +26,17 @@ function addRandomGreeting() {
   const greetingContainer = document.getElementById('greeting-container');
   greetingContainer.innerText = greeting;
 }
+
+/**
+ * Returns the analysis score
+ */
+function getAnalysisScore(){
+
+  const responseFromServer = await fetch('/sentiment');
+
+  alert(responseFromServer);
+
+  const dateContainer = document.getElementById('analysis-container');
+  dateContainer.innerText = randomString;
+}
+
